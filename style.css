@@ -1,10 +1,12 @@
-*{
+*
+{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
+body
+{
     font-family: Arial, Helvetica, sans-serif;
     
     line-height: 1.5;
@@ -12,22 +14,27 @@ body{
     background-color: white;
     
 }
-ul{
+
+ul
+{
     list-style-type: none;
 }
-.container{
+.container
+{
     max-width: 1100px;
     margin:0 auto;
     padding: 0 30px;
     gap: 10px;
 }
 
-.sub-container{
+.sub-container
+{
     max-width: 1100px;
     margin:0 auto;
     padding: 0 30px;
 }
-.navbar a{
+.navbar a
+{
     background-color: white;
     color: #404040;
     text-decoration: none;
@@ -35,25 +42,29 @@ ul{
     padding: 8px 14px;
    /* font-weight: bold;*/
 }
-.navbar{
+.navbar
+{
     background-color: white;
     color: black;
     width: 100%;
     height: 58px;
     display: inline-flex;
 }
-.btn-hbo{
+
+.btn-hbo
+{
     background-color:#B535F6;
     border: none;
-color: white;
-padding: 10px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 font-size: 11px;
 cursor: pointer;
 }
-.navbar .container{
+.navbar .container
+{
     display: flex;
     justify-content:start;
     align-items: center;
@@ -98,18 +109,21 @@ cursor: pointer;
 color: white;
 font-size: 40px;
 }
-.text-container h6{  
+.text-container h6
+{  
     color: white;
-    }
-    .text-container h5{  
-        color: white;
-        }
+}
+.text-container h5
+{  
+    color: white;
+}
    
 .header-container 
 {
     padding: 0px 80px;
 }
-.section .text-section{
+.section .text-section
+{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -257,12 +271,12 @@ cursor: pointer;
     width: 641px;
     height: 361px;
     margin: 0px 94px;
-    /* position: absolute; */
+   
    
 }
 .title
 {
-    /* position: relative; */
+   
     top: 297px;
     left: 161px;
     color: white;
@@ -338,7 +352,7 @@ cursor: pointer;
 
 }
 .main-sec{
-    display: flex;
+ display: flex;
 justify-content: space-evenly;
 margin: 50px;
 align-items: center;
@@ -374,6 +388,7 @@ align-items: center;
 }
 .footer-sec
 {
+    padding-top: 2rem;
     display: flex;
     flex-direction: column;
  align-items: center;
